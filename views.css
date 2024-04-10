@@ -1,0 +1,315 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.main-header{
+    border-bottom: 1px solid gray;
+    padding-bottom: 0px;
+    height: 103px;
+    border-radius: 10px;
+    
+}
+.nav-ul {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    justify-content: space-between;
+    align-self: flex-start;
+
+   
+   
+}
+.nav-li{
+    list-style: none;
+    padding-top: 35px;
+   
+    
+
+}
+
+
+.maina{
+    text-decoration: none;
+    font-size: x-large;
+    color: #003366;
+    margin-left: 0px;
+    
+}
+li:hover{
+    
+    box-sizing: border-box;
+    
+  
+}
+.maina:hover{
+  
+    box-shadow: 1px 1px 1px 1px #ffbf00 ;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+    
+li:first-child{
+    padding-top: 2px;
+}
+.last-li{
+padding-top: 26px;    
+padding-right: 10px;
+margin-bottom: 3px;
+box-sizing: border-box;
+list-style: none;
+}
+.icons{
+    width: 20px;
+    height: 20px;
+}
+
+.logo-image{
+    height: 100px;
+    width: 120px;
+    border-radius: 40%;
+  
+}
+.logos{
+    height: 50px;
+    width: 50px;
+    border-radius: 40%;
+}
+.beach-div{
+    background-image: url("images/sunsetksamil.jpg");
+    height:600px;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+    filter: brightness(70%);
+    filter: contrast(1.1);
+    color: white;
+    font-family: "dancing Script","cursive";
+    
+   
+}
+.beaches{
+    font-size: 60px;
+}
+.div-description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    font-family:"dancing Script","cursive" ;
+    color: #003366;
+    
+}
+.quote-sea{
+    font-size: xx-large;
+}
+.paradise{
+    text-wrap: wrap;
+    font-size: x-large;
+}
+.beaches{
+    font-size: 60px;
+    color: white;
+    filter: contrast(1.2);
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.sunset-header{
+    color: #003366;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.sunset-section{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 12px;
+    background-color: #D0D0D0;
+    padding: 6px;
+    margin-bottom: 60px;
+}
+.sunset-div{
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    min-width: 380px;
+}
+
+
+.sunset-text{
+    text-align: center;
+    text-wrap: wrap;
+    margin: 6px;
+    
+}
+p{
+    margin: 40px;
+    font-size: 14px;
+}
+.sunset-image{
+    width: 100%;
+    height: 100%;
+    image-rendering: auto;
+    object-fit: cover;
+}
+
+.sunsetbutton{
+    font-size: x-large;
+    background-color: #ffbf00;
+    color: black;
+    border-radius: 10px;
+    
+        
+    
+}
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+        animation-timing-function: cubic-bezier() ;
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+.sunsetbutton:hover{
+    animation: pulse 2s infinite;
+}
+
+
+.footer-section{
+    height: 300px;
+    width: 100%;
+    background-color:#C8C8C8 ;
+    padding-top: 18px;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    
+  
+}
+
+
+
+.footer-image{
+    height: 30px;
+    width: 30px;
+   border-radius: 20px;
+  
+}
+
+.footer-div{
+    display: flex;
+    padding: 10px;
+   
+}
+
+.footer-a{
+    text-decoration: none;
+    
+    
+}
+
+.footer-li{
+    text-decoration: none;
+    margin-left: 30px;
+    list-style: none;
+    padding: 8px;
+}
+
+
+.footer-nav{
+    text-decoration: none;
+}
+.footer-section{
+    display: flex;
+    place-content: center;
+    margin-top: 20px;
+}
+.footer-logo{
+    border-radius: 10px;
+    float: left;
+}
+.contact-image{
+    height: 30px;
+    width: 30px;
+}
+.info-span{
+    color: #003366;
+}
+.last-div{
+    position: relative;
+    background-color: #003366;
+    color:white;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+
+.last-span{
+  position: absolute;
+  right: 0;
+    
+}
+.welcome{
+    margin-left: 350px;
+}
+.map-container{
+    height: 100px;
+}
+
+.dropbtn {
+    background-color: white;
+    color:  #003366;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    font-size: 18px;
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid  #003366;
+  }
+  .dropdown-content a:hover {
+      background-color: #ffbf00;
+     
+    }
+  
+  /* Change color of dropdown links on hover */
+  
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}

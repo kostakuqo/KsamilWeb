@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Visit Ksamil</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="beaches.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="..."
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header class="main-header">
+      <nav class="main-nav">
+        <ul class="nav-ul">
+          <li class="nav-li">
+            <img class="logo-image" src="images/ksamilweblogo.png" />
+          </li>
+          <li class="nav-li">
+            <img class="icons" src="images/home-button.png" alt="" />
+            <a class="maina" href="index.html">Home</a>
+          </li>
+          <li class="nav-li">
+            <img class="icons" src="images/beach.png" alt="" />
+            <a class="maina" href="beaches.html">Beaches</a>
+          </li>
+          <li class="nav-li">
+            <img class="icons" src="images/checklist.png" alt="" />
+            <a class="maina" href="thingstodo.html">Things to do</a>
+          </li>
+          <li class="nav-li">
+            <img class="icons" src="images/download.png" alt="" />
+            <a class="maina" href="about.html">About</a>
+          </li>
+          <li class="last-li">
+            <a class="maina" href="https://www.whatsapp.com/">
+              <img class="logos" src="images/whatsaplogo.png" alt=""
+            /></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="slide-container">
+      <div class="slide">
+        <img
+          class="slide-image"
+          src="images/Butrint-Albania-ruins-1200x873.jpg"
+          alt="slide 1"
+        />
+        <a class="change-slide-buttons prev" onclick="plusSlides(-1)"
+          >&#10094;</a
+        >
+        <a class="change-slide-buttons next" onclick="plusSlides(1)"
+          >&#10095;</a
+        >
+        <div class="overlay-text">
+          <h2>Butrint National Park</h2>
+          <h3>Day Tour</h3>
+          <button class="button sides-buttons">Price</button>
+          <button class="button sides-buttons">Book</button>
+        </div>
+      </div>
+
+      <div class="slide">
+        <img class="slide-image" src="images/musslehouse.jpg" alt="slide 2" />
+        <a class="change-slide-buttons prev" onclick="plusSlides(-1)"
+          >&#10094;</a
+        >
+        <a class="change-slide-buttons next" onclick="plusSlides(1)"
+          >&#10095;</a
+        >
+        <div class="overlay-text second-text">
+          <h2>Mussle house</h2>
+          <h3>Meet Our Queen</h3>
+          <button class="button sides-buttons">Price</button>
+          <button class="button sides-buttons">Book</button>
+        </div>
+      </div>
+      <div class="slide">
+        <img
+          class="slide-image"
+          src="images/blueeyealbania.jpg"
+          alt="slide 2"
+        />
+        <a class="change-slide-buttons prev" onclick="plusSlides(-1)"
+          >&#10094;</a
+        >
+        <a class="change-slide-buttons next" onclick="plusSlides(1)"
+          >&#10095;</a
+        >
+        <div class="overlay-text second-text">
+          <h2>Blue Eye Saranda</h2>
+          <h3>Day Tour with profesional diver and snacks</h3>
+          <button class="button sides-buttons">Price</button>
+          <button class="button sides-buttons">Book</button>
+        </div>
+      </div>
+      <div class="slide">
+        <img class="slide-image" src="images/islands.jpg" alt="slide 2" />
+        <a class="change-slide-buttons prev" onclick="plusSlides(-1)"
+          >&#10094;</a
+        >
+        <a class="change-slide-buttons next" onclick="plusSlides(1)"
+          >&#10095;</a
+        >
+        <div c lass="overlay-text second-text">
+          <h2>Ksamil Islands</h2>
+          <h3>Sailing and snorkeling with your local Captain</h3>
+          <button class="button sides-buttons">Price</button>
+          <button class="button sides-buttons">Book</button>
+        </div>
+      </div>
+    </section>
+    <section class="slide-container">
+      <div class="slide">
+        <img
+          class="slide-image"
+          src="images/Butrint-Albania-ruins-1200x873.jpg"
+          alt="slide 1"
+        />
+        <a class="change-slide-buttons prev" onclick="plusSlides(-1)"
+          >&#10094;</a
+        >
+        <a class="change-slide-buttons next" onclick="plusSlides(1)"
+          >&#10095;</a
+        >
+        <div class="overlay-text">
+          <h2>Butrint National Park</h2>
+          <h3>Day Tour</h3>
+          <button class="button sides-buttons">Price</button>
+          <button class="button sides-buttons">Book</button>
+        </div>
+      </div>
+
+      <div class="slide">
+        <img class="slide-image" src="images/musslehouse.jpg" alt="slide 2" />
+        <a class="change-slide-buttons prev" onclick="plusSlides(-1)"
+          >&#10094;</a
+        >
+        <a class="change-slide-buttons next" onclick="plusSlides(1)"
+          >&#10095;</a
+        >
+        <div class="overlay-text second-text">
+          <h2>Mussle house</h2>
+          <h3>Meet Our Queen</h3>
+          <button class="button sides-buttons">Price</button>
+          <button class="button sides-buttons">Book</button>
+        </div>
+      </div>
+      <div class="slide">
+        <img
+          class="slide-image"
+          src="images/blueeyealbania.jpg"
+          alt="slide 2"
+        />
+        <a class="change-slide-buttons prev" onclick="plusSlides(-1)"
+          >&#10094;</a
+        >
+        <a class="change-slide-buttons next" onclick="plusSlides(1)"
+          >&#10095;</a
+        >
+        <div class="overlay-text second-text">
+          <h2>Blue Eye Saranda</h2>
+          <h3>Day Tour with profesional diver and snacks</h3>
+          <button class="button sides-buttons">Price</button>
+          <button class="button sides-buttons">Book</button>
+        </div>
+      </div>
+      <div class="slide">
+        <img class="slide-image" src="images/islands.jpg" alt="slide 2" />
+        <a class="change-slide-buttons prev" onclick="plusSlides(-1)"
+          >&#10094;</a
+        >
+        <a class="change-slide-buttons next" onclick="plusSlides(1)"
+          >&#10095;</a
+        >
+        <div c lass="overlay-text second-text">
+          <h2>Ksamil Islands</h2>
+          <h3>Sailing and snorkeling with your local Captain</h3>
+          <button class="button sides-buttons">Price</button>
+          <button class="button sides-buttons">Book</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ketu fillon pjesa e experiancave -->
+
+    <!-- ketu mbaron pjesa e experiencave -->
+
+    <!-- 
+Ketu nis pjesa e eventit -->
+
+    <!-- Ketu mbaron pjesa e eventit -->
+
+    <!-- 
+Ketu fillon pjesa e mapsit -->
+
+    <!-- ketu mbaron pjesa e mapsit -->
+
+    <!-- Ketu fillon pjesa e footerit -->
+
+    <!-- ketu mbaron pjesa e footerit -->
+
+    <script src="script.js"></script>
+  </body>
+</html>

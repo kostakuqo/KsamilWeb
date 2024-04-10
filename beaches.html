@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visit Ksamil</title>
+    <link rel="stylesheet" href="beaches.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="..." crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      />
+      <script
+        src="https://kit.fontawesome.com/0b7ff6245b.js"
+        crossorigin="anonymous"
+      ></script>
+    
+
+        
+    
+
+</head>
+<header class="main-header">
+    <nav class="main-nav">
+        <ul class="nav-ul">
+            <li class="nav-li"><img class="logo-image" src="images/ksamilweblogo.png" alt=""></a></li>
+            <li class="nav-li">
+                <i class="fa-solid fa-house"></i>
+                <a class="maina" href="index.html">Home</a>
+            </li>
+            <li class="nav-li">
+                <i class="fa-solid fa-umbrella-beach"></i>
+                <a class="maina" href="beaches.html">Beaches</a>
+            </li>
+            <li class="nav-li">
+                <i class="fa-solid fa-bars"></i>
+                <div class=" maina dropdown">
+                    <button class="dropbtn">Things to do</button>
+                    <div class="dropdown-content">
+                      <a href="sailing.html">Sailing</a>
+                      <a href="snorkeling.html">Snorkeling</a>
+                      <a href="views.html">Sunset View</a>
+                      <a href="farming.html">Farming</a>
+                    </div>
+                  </div>
+                
+                
+            </li>
+            <li class="nav-li">
+                <i class="fa-solid fa-info"></i>
+                <div class=" maina dropdown">
+                    <button class="dropbtn">About</button>
+                    <div class="dropdown-content">
+                      <a href="https://thegrown-upgapyear.com/2023/02/visiting-butrint-from-ksamil-albania/">History</a>
+                      <a href="https://visit-saranda.al/">Aur Region</a>
+                      <a href="https://www.ishp.gov.al/">Health & Safety</a>
+                      
+                    </div>
+                  </div>
+                
+            </li>  
+            <li class="last-li"><a class="maina"  href="https://www.whatsapp.com/"> <img class="logos" src="images/whatsaplogo.png" alt=""></a>
+            </li>
+
+        </ul>
+    </nav>
+</header>
+<body>
+
+
+<section class="beach-section">
+    <div class="beach-div">
+        <h1 class="beaches">Beaches of Ksamil</h1>
+
+    </div>
+</section>
+
+
+<section class="beach-description">
+    <div class="div-description">
+        <h3 class="quote-sea"> We dream in colors borrowed from the sea.</h3>
+        <p class="paradise">The Albanian Riviera, the beaches in Ksamil offer a bit of paradise along the Ionian Sea! With Ksamil's stunning white sands and crystal clear, turquoise waters, you're sure to have an incredible vacation soaking up the sun in Albania</p>
+       
+
+    </div>
+
+</section>
+
+
+
+<!-- Ketu fillon pjesa e shfaqjes sa plazheve -->
+
+
+<section class="beach-type">
+<div class="diviplazhit">
+   <h2 class="about-beach"> 4 Islands Bay</h2>
+   <span><i class="fas fa-umbrella-beach"></i>Type: Rocky and sandy beaches</span></i>
+   <span><i class="fas fa-chair"></i>Facilities:Bar Restaurant,private beach sunbeds,shower,toilets,public beach</span></i>
+   <span><i class="fas fa-directions"></i>Accsesibility:By Car and by Boat</span></i>
+   <span><i class="fas fa-tasks"></i>Things to do:Sailing,snorkeling,diving,paddleboard.canoeing,pedalo.</span></i>
+   <div class="slide" >
+    <section class="map-container">
+        <div class="card">
+            <div class="card-body">
+                <div id="katerishujt"></div>
+                <button type="button" class="btn btn-primary katerishujt-button">Use your location</button>
+            </div>
+    
+        </section>
+    </div>
+</div>
+<div class="diviplazhit-photo">
+    <img class="beach-image" src="images/4island-beach.jpg" alt="">
+ </div>
+</section>
+
+<!-- Ketu fillon plazhi i dyte -->
+
+<section class="beach-type">
+    <div class="diviplazhit-photo kepmerli">
+        <img class="beach-image" src="images/kepmerli.jpg" alt="">
+    </div>
+    <div class="diviplazhit">
+       <h2 class="about-beach">Kep Merli,Pulebardha </h2>
+       <span><i class="fas fa-umbrella-beach"></i>Type: Rocky and sandy beaches</span></i>
+       <span><i class="fas fa-chair"></i>Facilities:Bar Restaurant,private beach sunbeds,shower,toilets,public beach</span></i>
+       <span><i class="fas fa-directions"></i>Accsesibility:By Car and by Boat</span></i>
+       <span><i class="fas fa-tasks"></i>Things to do:Sailing,snorkeling,diving,paddleboard.canoeing,pedalo.</span></i>
+       <div class="slide" >
+        <section class="map-container">
+            <div class="card">
+                <div class="card-body">
+                    <div id="kepmerli"></div>
+                    <button type="button" class="btn btn-primary kepmerli-button">Use your location</button>
+                </div>
+        
+            </section>
+        </div>
+    </div>
+   
+    </section>
+
+    <!--ketu fillon plazhi i trete-->
+    <section class="beach-type">
+        <div class="diviplazhit">
+           <h2 class="about-beach">Rameras & Pema e thate</h2>
+           <span><i class="fas fa-umbrella-beach"></i>Type: Rocky and sandy beaches</span></i>
+           <span><i class="fas fa-chair"></i>Facilities:Bar Restaurant,private beach sunbeds,shower,toilets.</span></i>
+           <span><i class="fas fa-directions"></i>Accsesibility:By Car and by Boat</span></i>
+           <span><i class="fas fa-tasks"></i>Things to do:Sailing,snorkeling,traditional fishing🎣 .</span></i>
+           <div class="slide" >
+            <section class="map-container">
+                <div class="card">
+                    <div class="card-body">
+                        <div id="rameras"></div>
+                        <button type="button" class="btn btn-primary rameras-button">Use your location</button>
+                    </div>
+            
+                </section>
+            </div>
+        </div>
+        <div class="diviplazhit-photo">
+            <img class="beach-image" src="images/pema-e-thate-12.jpg" alt="">
+         </div>
+        </section>
+
+
+<!--ketu fillon plazhi i katert-->
+ <section class="beach-type">
+    <div class="diviplazhit-photo kepmerli">
+        <img class="beach-image" src="images/gjiriiartes.jpg" alt="">
+    </div>
+    <div class="diviplazhit">
+       <h2 class="about-beach">Gjiri i Artes</h2>
+       <span><i class="fas fa-umbrella-beach"></i>Type: Rocky and sandy beaches</span></i>
+       <span><i class="fas fa-chair"></i>Facilities:Bar Restaurant,private beach sunbeds,shower,toilets,public beach</span></i>
+       <span><i class="fas fa-directions"></i>Accsesibility:By Car and by Boat</span></i>
+       <span><i class="fas fa-tasks"></i>Things to do:Sailing,snorkeling,diving,paddleboard.canoeing,pedalo.</span></i>
+       <div class="slide" >
+        <section class="map-container">
+            <div class="card">
+                <div class="card-body">
+                    <div id="gjiriiartes"></div>
+                    <button type="button" class="btn btn-primary gjiriiartes-button">Use your location</button>
+                </div>
+        
+            </section>
+        </div>
+    </div>
+   
+    </section>
+     
+
+    <!--ketu fillon plazhi i peste-->
+    <section class="beach-type">
+        <div class="diviplazhit">
+           <h2 class="about-beach">Augusto & Paradise Beach</h2>
+           <span><i class="fas fa-umbrella-beach"></i>Type: Rocky and sandy beaches</span></i>
+           <span><i class="fas fa-chair"></i>Facilities:Bar Restaurant,private beach sunbeds,shower,toilets.</span></i>
+           <span><i class="fas fa-directions"></i>Accsesibility:By Car and by Boat</span></i>
+           <span><i class="fas fa-tasks"></i>Things to do:Sailing,snorkeling.</span></i>
+           <div class="slide" >
+            <section class="map-container">
+                <div class="card">
+                    <div class="card-body">
+                        <div id="paradise"></div>
+                        <button type="button" class="btn btn-primary paradise-button">Use your location</button>
+                    </div>
+            
+                </section>
+            </div>
+        </div>
+        <div class="diviplazhit-photo">
+            <img class="beach-image" src="images/augusto.jpeg" alt="">
+        </div>
+    </section>
+
+    <!--ketu fillon plazhi tjeter-->
+
+    <section class="beach-type">
+        <div class="diviplazhit-photo kepmerli">
+            <img class="beach-image" src="images/gjiriiartes.jpg" alt="">
+        </div>
+        <div class="diviplazhit">
+           <h2 class="about-beach">Poda Beach Bar</h2>
+           <span><i class="fas fa-umbrella-beach"></i>Type: Rocky and sandy beaches</span></i>
+           <span><i class="fas fa-chair"></i>Facilities:Bar Restaurant,private beach sunbeds,shower,toilets,public beach</span></i>
+           <span><i class="fas fa-directions"></i>Accsesibility:By Car and by Boat</span></i>
+           <span><i class="fas fa-tasks"></i>Things to do:Sailing,snorkeling,diving,paddleboard.canoeing,pedalo,night parties.</span></i>
+           <div class="slide" >
+            <section class="map-container">
+                <div class="card">
+                    <div class="card-body">
+                        <div id="poda"></div>
+                        <button type="button" class="btn btn-primary poda-button">Use your location</button>
+                    </div>
+            
+                </section>
+            </div>
+        </div>
+       
+        </section>
+
+    <!--ketu fillon pjesa e experiencave-->
+   
+    <!-- ketu fillon pjesa e experiancave -->
+   
+
+    
+
+    <!--Ketu fillon pjesa e footerit-->
+    <footer class="footer-section">
+        <div class="footer-div">
+            <nav class="footer-nav">
+                <ul class="footer-div">
+                 
+                    <div>
+                    <li class="footer-li">
+                        <a class="footer-a" href="https://www.facebook.com/visitksamilalbania"><img class="footer-image" src="images/facebook.png"></a>
+                    </li>
+                    <li class="footer-li">
+                     </li>
+                    <li class="footer-li">
+                        <a class="footer-a" href="https://www.whatsapp.com/visitksamilalbania"><img class="footer-image" src="images/whatsapp.png"></a>
+                    </li>
+                    <li class="footer-li">
+                        <a class="footer-a" href="https://www.twitter.com/visitksamilalbania"><img class="footer-image" src="images/twitter.png"></a>
+                    </li>
+                    <li class="footer-li">
+                        <a class="footer-a" href="https://www.instagram.com/visitksamilalbania"><img class="footer-image" src="images/instagram.png"></a>
+                    </li>
+                </div>
+                </ul>
+            </nav>
+    
+           
+        </div>
+        <div class="footer-div">
+            <nav class="footer-nav">
+                <ul class="footer-div">
+                    <div>
+                    <li class="footer-li">
+                        <img class="contact-image" src="images/telephone.png" alt=""><span class="info-span">+40721080181</span>
+                        
+                    </li>
+                    <li class="footer-li">
+                        <img class="contact-image" src="images/mail.png" alt=""><span class="info-span">kostakuqo5@gmail.com</span>
+                        
+                    </li>
+                    <li class="footer-li">
+                        <a class="footer-a" href="https://www.google.com/maps/@39.7690215,20.0025702,14z?entry=ttu"><img class="contact-image" src="images/google-maps.png"><span class="info-span">Ksamil Albania</span></a>
+                        
+                    </li>
+                    <li class="footer-li">
+                        <a class="footer-a" href="https://www.google.com/maps/@39.7690215,20.0025702,14z?entry=ttu"><img class="contact-image" src="images/google-maps.png"><span class="info-span">Visit Us</span></a>
+                        
+                    </li>
+                </div>
+                </ul>
+            </nav>
+    
+           
+        </div>
+    
+        <div class="footer-div">
+            <nav class="footer-nav">
+                <ul class="footer-div">
+                    <div>
+                    <li class="footer-li">
+                        <a class="footer-a" href="https://www.google.com/maps/@39.7690215,20.0025702,14z?entry=ttu"><img class="contact-image" src="images/check.png"><span class="info-span">Visit Albania</span></a>
+                        
+                    </li>
+                    <li class="footer-li">
+                        <a class="footer-a" href="https://www.google.com/maps/@39.7690215,20.0025702,14z?entry=ttu"><img class="contact-image" src="images/check.png"><span class="info-span">Visit Ksamil</span></a>
+                        
+                    </li>
+                    <li class="footer-li">
+                        <a class="footer-a" href="https://www.google.com/maps/@39.7690215,20.0025702,14z?entry=ttu"><img class="contact-image" src="images/check.png"><span class="info-span">Visit Saranda</span></a>
+                        
+                    </li>
+                    <li class="footer-li">
+                        <a class="footer-a" href="https://www.google.com/maps/@39.7690215,20.0025702,14z?entry=ttu"><img class="contact-image" src="images/check.png"><span class="info-span">Visit Tirana</span></a>
+                        
+                    </li>
+                </div>
+                </ul>
+            </nav>
+    
+           
+        </div>
+    
+        
+    
+    
+    </footer>
+    <div class="last-div">
+        <span>Copyright@2024</span>
+        <span class="last-span">Powered By Kosta</span>
+        <span class="welcome">Welcome to Ksamil</span>
+        </div>
+   
+    
+    <script src="beaches.js"></script>
+   
+</body>
+</html>
